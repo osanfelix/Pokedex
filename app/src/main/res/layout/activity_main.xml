@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.oscar.pokedex.MainActivity"
-    android:background="@drawable/Background">
+    android:background="@drawable/background">
 
 
     <ImageView
@@ -20,7 +20,8 @@
         android:layout_width="200dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp" />
+        android:layout_marginTop="100dp"
+        android:onClick="onClickPokemon" />
 
     <GridLayout
         android:layout_height="wrap_content"
@@ -94,7 +95,7 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        app:srcCompat="@drawable/PkemonTitle"
+        app:srcCompat="@drawable/pokemontitle"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/imageView6"
